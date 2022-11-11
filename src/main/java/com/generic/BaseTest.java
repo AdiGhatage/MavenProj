@@ -9,7 +9,7 @@ public class BaseTest extends Pojo {
 //	private WrapperFunctions objWrapperFunctions;    
 	
 	public WebDriver initialiseEnvironment(){
-	    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/Drivers/chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/main/resources/Drivers/chromedriver.exe");
 	    driver = new ChromeDriver();
 		//driver.manage().window().maximize();
 		Pojo.setDriver(driver);
